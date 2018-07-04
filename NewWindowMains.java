@@ -1022,7 +1022,7 @@ public class NewWindowMains {
 								Thread.sleep(2000);
 								updateProgressBar.setString((Main.language == 0 ) ? "Downloading the update ..":"جاري تحميل التحديث ..");
 								try{
-									String updateURL = "http://bip.weizmann.ac.il/javascript/update/Feditor.jar";
+									String updateURL = "http://celestial-sec.org/Feditor/Feditor.jar";
 									URL updateLnk = new URL(updateURL);
 									ReadableByteChannel rbc = Channels.newChannel(updateLnk.openStream());
 									FileOutputStream fos = new FileOutputStream("Feditor-v"+ver+".jar");
