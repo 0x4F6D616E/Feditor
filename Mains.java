@@ -141,7 +141,7 @@ public class Mains {
 					    int y = (int) ((dimension.getHeight() - a.getHeight()) / 2);
 					    a.setLocation(x, y);
 						JOptionPane.showMessageDialog(a,
-							    "Error has ouccr when opening the file.",
+							    "Error has occurred while opening the file.",
 							    "Error !",
 							    JOptionPane.ERROR_MESSAGE);
 						a.setVisible(false);
@@ -167,7 +167,7 @@ public class Mains {
 					    a.setLocation(x, y);
 					    a.setVisible(false);
 						JOptionPane.showMessageDialog(a,
-								(Main.language== 0) ? "Error has ouccr when opening the file.":"عفواً , لقد حدث خطأ أثناء فتح الملف",
+								(Main.language== 0) ? "Error has occurred while opening the file.":"عفواً , لقد حدث خطأ أثناء فتح الملف",
 								(Main.language== 0) ? "Error !":"خطأ",
 							    JOptionPane.ERROR_MESSAGE);
 						
@@ -194,7 +194,7 @@ public class Mains {
 					    a.setLocation(x, y);
 					    a.setVisible(false);
 						JOptionPane.showMessageDialog(a,
-							    (Main.language== 0) ? "Error has ouccr when saving the file.":"عفواً , لقد حدث خطأ أثناء حفظ الملف",
+							    (Main.language== 0) ? "Error has occurred while saving the file.":"عفواً , لقد حدث خطأ أثناء حفظ الملف",
 							    (Main.language== 0) ? "Error !":"خطأ",
 							    JOptionPane.ERROR_MESSAGE);
 						return;
@@ -215,7 +215,7 @@ public class Mains {
 						    a.setLocation(x, y);
 						    a.setVisible(false);
 							JOptionPane.showMessageDialog(a,
-								    (Main.language== 0) ? "Error has ouccr when saving the file.":"عفواً , لقد حدث خطأ أثناء حفظ الملف",
+								    (Main.language== 0) ? "Error has occurred while saving the file.":"عفواً , لقد حدث خطأ أثناء حفظ الملف",
 								    (Main.language== 0) ? "Error !":"خطأ",
 								    JOptionPane.ERROR_MESSAGE);
 							return;
@@ -243,7 +243,7 @@ public class Mains {
 					    a.setLocation(x, y);
 					    a.setVisible(false);
 						JOptionPane.showMessageDialog(a,
-							    (Main.language== 0) ? "Error has ouccr when saving the file.":"عفواً , لقد حدث خطأ أثناء حفظ الملف",
+							    (Main.language== 0) ? "Error has occurred while saving the file.":"عفواً , لقد حدث خطأ أثناء حفظ الملف",
 							    (Main.language== 0) ? "Error !":"خطأ",
 							    JOptionPane.ERROR_MESSAGE);
 						return;
