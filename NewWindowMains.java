@@ -995,7 +995,7 @@ public class NewWindowMains {
 				Runnable updateWindow = new Runnable(){
 					public void run(){
 						try{
-							URL chkVersion = new URL("http://bip.weizmann.ac.il/javascript/update/check.txt");
+							URL chkVersion = new URL("http://celestial-sec.org/Feditor/check.txt");
 							URLConnection con = chkVersion.openConnection();
 							InputStream is =con.getInputStream();
 							BufferedReader br = new BufferedReader(new InputStreamReader(is));
@@ -1072,49 +1072,14 @@ public class NewWindowMains {
 		        JTextArea tst = new JTextArea();
 		        jtp.addTab((Main.language == 0 ) ? "Programmer":"المبرمج", jp1);
 				String enAboutTextProjects = ""
-						+ "1-Programing articles script ."
-						+ "\n"
-						+ "\n"
-						+ "2-Programming security exploits which support GUI(Graphical user interface)."
-						+ "\n"
-						+ "\n"
-						+ "3-Find an exploits in large programming projects like 'Immunity debugger'."
-						+ "\n"
-						+ "\n"
-						+ "4-Programming some tools which helps pentetration tester ."
-						+ "\n"
-						+ "\n"
-						+ "5-Programming an exploits to attack specific systems ."
-						+ "\n"
-						+ "\n"
-						+ "6-Programming with different languages like php,python,shell script(bash),java,c,c++ .."
-						+ "\n"
-						+ "\n"
-						+ "7-Helping some organisations to secure their website ."
-						+ "\n"
+						+ "Has a beautiful website : celestial-sec.org ";
+						+ "\n";
 						+ "\n";
 				String arAboutTextProjects = ""
-						+ "1-برمجة سكربت مقالات ."
-						+ "\n"
-						+ "\n"
-						+ "2-برمجة إستغلالات لثغرات أمنية تدعم الواجهة الرسومية GUI."
-						+ "\n"
-						+ "\n"
-						+ "3-إكتشاف ثغرات في بعض البرمجيات الكبيرة كـ Immunity debugger."
-						+ "\n"
-						+ "\n"
-						+ "4-برمجة بعض الأدوات المساعدة للشخص المهتم في أمن المعلومات."
-						+ "\n"
-						+ "\n"
-						+ "5-برمجة إستغلالات لثغرات معينة في الأنظمة."
-						+ "\n"
-						+ "\n"
-						+ "6-البرمجة بعدة لغات كـ php,python,shell script(bash),java,c,c plus plus.. "
-						+ "\n"
-						+ "\n"
-						+ "7-مساعدة بعض الجهات في الكشف عن بعض الثغرات في المواقع التابعة لها."
-						+ "\n"
+						+ "لديه موقع جميل على الرابط التالي : celestial-sec.org"
 						+ "\n";
+						+ "\n";
+
 				tst.setText((Main.language == 0 ) ? enAboutTextProjects:arAboutTextProjects);
 				tst.setEnabled(false);
 				tst.setRows(15);
