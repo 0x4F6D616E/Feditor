@@ -140,7 +140,7 @@ public class NewWindowMains {
 					    a.setLocation(x, y);
 					    a.setVisible(false);
 						JOptionPane.showMessageDialog(a,
-								(Main.language== 0) ? "Error has ouccr when opening the file.":"عفواً , لقد حدث خطأ أثناء فتح الملف",
+								(Main.language== 0) ? "Error has occurred when opening the file.":"عفواً , لقد حدث خطأ أثناء فتح الملف",
 								(Main.language== 0) ? "Error !":"خطأ",
 							    JOptionPane.ERROR_MESSAGE);
 						
@@ -163,7 +163,7 @@ public class NewWindowMains {
 					    a.setLocation(x, y);
 					    a.setVisible(false);
 						JOptionPane.showMessageDialog(a,
-								(Main.language== 0) ? "Error has ouccr when opening the file.":"عفواً , لقد حدث خطأ أثناء فتح الملف",
+								(Main.language== 0) ? "Error has occurred when opening the file.":"عفواً , لقد حدث خطأ أثناء فتح الملف",
 								(Main.language== 0) ? "Error !":"خطأ",
 							    JOptionPane.ERROR_MESSAGE);
 						
@@ -1072,12 +1072,12 @@ public class NewWindowMains {
 		        JTextArea tst = new JTextArea();
 		        jtp.addTab((Main.language == 0 ) ? "Programmer":"المبرمج", jp1);
 				String enAboutTextProjects = ""
-						+ "Has a beautiful website : celestial-sec.org ";
-						+ "\n";
+						+ "Has a beautiful website : celestial-sec.org "
+						+ "\n"
 						+ "\n";
 				String arAboutTextProjects = ""
 						+ "لديه موقع جميل على الرابط التالي : celestial-sec.org"
-						+ "\n";
+						+ "\n"
 						+ "\n";
 
 				tst.setText((Main.language == 0 ) ? enAboutTextProjects:arAboutTextProjects);
